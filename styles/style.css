@@ -1,0 +1,513 @@
+@import url("http://db.onlinewebfonts.com/c/6cec834e2e8f2e4206567ed75e1281d4?family=Brandon+Grotesque+Bold");
+@import url("http://fonts.cdnfonts.com/css/chronicle-display");
+
+.wrapper {
+  max-width: 100%;
+  padding: 0 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Brandon Grotesque", sans-serif;
+  scroll-behavior: smooth;
+}
+/* Hero Section */
+.hero-container {
+  display: flex;
+  justify-content: center;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+}
+
+.hero-container img {
+  width: 100%;
+  height: auto;
+}
+
+.hero-text {
+  position: absolute;
+  color: #fffafa;
+  top: 227px;
+  left: 110px;
+  width: 237px;
+  height: 129px;
+  text-align: left;
+  font-size: 56px;
+  font-weight: 900;
+  font-family: "Chronicle Display";
+  letter-spacing: 0px;
+  color: #fffafa;
+  opacity: 1;
+}
+
+.hero-sub-text {
+  position: absolute;
+  color: #fffafa;
+  top: 370px;
+  left: 110px;
+  width: 407px;
+  height: 113px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 100;
+  font-family: "Brandon Grotesque";
+  letter-spacing: 0px;
+  line-height: 28px;
+  opacity: 1;
+}
+
+.hero-btn {
+  position: absolute;
+  top: 507px;
+  left: 110px;
+  margin-top: 44px;
+  opacity: 1;
+}
+.btn {
+  padding: 16px 40px;
+  border-radius: 6px;
+  color: #004a4c;
+  background-color: #fffafa;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 1.95px;
+  font-weight: 900;
+}
+
+.hero-btn:hover .btn:hover {
+  background-color: #004a4c;
+  color: #fffafa;
+  animation: ease-out;
+  animation-duration: 0.3s;
+}
+/* Hero Section end */
+/* Meet Biom start */
+.meet-container {
+  background-image: url("/styles/img/Mask\ Group\ 12.png");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.meet-text {
+  text-align: left;
+  position: absolute;
+  top: 40%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  color: #004a4c;
+}
+
+.meet-text h3 {
+  font-weight: normal;
+  font-size: 14px;
+  font-family: "Brandon Grotesque";
+  letter-spacing: 2.1px;
+  padding: 0 0 8px 0;
+}
+
+.meet-text h1 {
+  font-weight: 900;
+  font-size: 36px;
+  font-family: "Chronicle Display";
+  padding: 0 0 12px 0;
+}
+
+.meet-text p {
+  font-weight: normal;
+  font-size: 18px;
+  font-family: "Brandon Grotesque";
+  padding: 0 0 27px 0;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.meet-text img {
+  vertical-align: middle;
+  padding: 0 22px 0 0;
+}
+
+.meet-text ul {
+  display: block;
+}
+
+.meet-text li {
+  padding: 35px 0 0 0;
+  list-style: none;
+  vertical-align: middle;
+  text-align: left;
+  font-weight: normal;
+  font-size: 18px;
+  font-family: "Brandon Grotesque";
+}
+
+.meet-text li:nth-last-child(1) {
+  margin-bottom: 65px;
+}
+
+.meet-text a {
+  font-weight: 900;
+  font-size: 13px;
+  font-family: "Brandon Grotesque";
+  letter-spacing: 1.95px;
+  color: #fffafa;
+  text-transform: uppercase;
+  background-color: #004a4c;
+  padding: 16px 40px;
+  border-radius: 6px;
+  margin-top: 45px;
+}
+/* Meet Biom end */
+
+/* animation meet biom start*/
+#box {
+  position: absolute;
+  left: 0%;
+  -webkit-animation-name: move;
+  -webkit-animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: up;
+  -webkit-animation-timing-function: linear;
+  z-index: -1;
+  font-size: 200px;
+  color: #f2f2f2;
+  font-weight: 900;
+  line-height: 600px;
+  transform: rotate(-90deg);
+}
+
+#box p {
+  transform: rotate(-90deg);
+}
+@-webkit-keyframes move {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+/* animation meet biom end */
+/* Ready to stat  */
+.grid-container {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(4, 25%);
+  background-color: #fff;
+  padding: 120px 0 0 0;
+}
+
+.grid-container img {
+  height: 400px;
+  width: 400px;
+}
+
+.grid-container h2 {
+  text-align: left;
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 900;
+  font-family: "Chronicle Display";
+  color: #000;
+  margin: 60px 70px 20px 70px;
+}
+
+.grid-container a {
+  border: solid #002d33 1px;
+  border-radius: 6px;
+  padding: 15px 15px;
+  margin-left: 60px;
+}
+
+.grid-container a img {
+  vertical-align: sub;
+  width: 20px;
+  height: 20px;
+  margin: 0 10px;
+}
+
+.grid-container a:hover img {
+  margin: 0 0 0 12px;
+}
+
+.hover {
+  position: relative;
+}
+
+.hover-show {
+  position: absolute;
+  top: 70%;
+  left: 15%;
+}
+
+.hover-show h3 {
+  font-size: 24px;
+  font-weight: 900;
+  font-family: "Brandon Grotesque";
+  padding: 10px 0;
+}
+
+.hover-show h4 {
+  font-size: 14px;
+  font-weight: 100;
+  font-family: "Chronicle Display";
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.hover h3 {
+  display: none;
+}
+
+.hover h4 {
+  display: none;
+}
+
+.hover:hover img {
+  margin-left: 140px;
+  animation: ease-out;
+  animation-duration: 0.3s;
+}
+.hover:hover h3 {
+  display: block;
+  animation: ease-out;
+  animation-duration: 0.3s;
+}
+.hover:hover h4 {
+  display: block;
+  animation: ease-out;
+  animation-duration: 0.3s;
+}
+/* Ready to end */
+
+/* Slide show for text start */
+.slideshow-container {
+  position: relative;
+  background: #f2f2f2f2;
+}
+
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+  height: 410px;
+}
+
+.mySlides h3 {
+  text-align: center;
+  font-weight: 100;
+  font-size: 14px;
+  font-family: "Brandon Grotesque";
+  text-transform: uppercase;
+  color: #002d33;
+  letter-spacing: 2.1px;
+  padding: 26px 0;
+}
+
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: #f2f2f2;
+}
+
+.dot {
+  cursor: pointer;
+  height: 8px;
+  width: 8px;
+  margin: 0 8px 0 0;
+  background-color: transparent;
+  border: solid 1px #004a4c;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #004a4c;
+}
+
+q {
+  text-align: center;
+  font-weight: 900;
+  font-size: 25px;
+  font-family: "Chronicle Display";
+  color: #002d33;
+  letter-spacing: 0px;
+  white-space: pre-wrap;
+}
+
+.author {
+  text-align: center;
+  font-weight: 700;
+  font-size: 13px;
+  font-family: "Brandon Grotesque";
+  letter-spacing: 1.3px;
+  color: #002d33;
+  padding: 26px 0;
+  text-transform: uppercase;
+}
+/* Slide show for text end */
+
+/* Video start */
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  border-radius: 14px;
+  width: 100% !important;
+  height: auto !important;
+}
+
+.video-container {
+  padding: 0 25px;
+  position: relative;
+}
+
+.content {
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  color: #fffafa;
+  text-align: center;
+  padding: 20px;
+}
+
+.content h3 {
+  font-weight: 400;
+  font-size: 14px;
+  font-family: "Brandon Grotesque";
+  letter-spacing: 2.1px;
+  text-transform: uppercase;
+}
+.content h1 {
+  font-weight: 900;
+  font-size: 36px;
+  font-family: "Chronicle Display";
+  letter-spacing: 0px;
+  line-height: 62px;
+}
+
+.content p {
+  font-weight: 100;
+  font-size: 18px;
+  font-family: "Brandon Grotesque";
+  letter-spacing: 0px;
+  white-space: pre-wrap;
+  margin-bottom: 24px;
+}
+/* Video end */
+
+/* Artborad start */
+
+.art {
+  position: relative;
+  height: 1222px;
+  width: auto;
+}
+
+.art-board {
+  left: 1300px;
+  width: 858px;
+  height: 606px;
+  border-radius: 12px;
+  background-color: #dae5e5;
+  text-align: left;
+  position: absolute;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  color: #004a4c;
+  z-index: 1;
+}
+
+.art-board h3 {
+  font-weight: normal;
+  font-size: 14px;
+  font-family: "Brandon Grotesque";
+  letter-spacing: 2.1px;
+  padding: 0 0 10px 0;
+  margin: 60px 0 0 222px;
+}
+
+.art-board h1 {
+  font-weight: 900;
+  font-size: 36px;
+  font-family: "Chronicle Display";
+  padding: 0 0 12px 0;
+  margin-left: 222px;
+}
+
+.art-board p {
+  font-weight: normal;
+  font-size: 18px;
+  font-family: "Brandon Grotesque";
+  padding: 0 0 27px 0;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-left: 222px;
+}
+
+.art-board img {
+  vertical-align: middle;
+  padding: 0 22px 0 0;
+  margin-left: 222px;
+}
+
+.art-board ul {
+  display: block;
+}
+
+.art-board li {
+  padding: 35px 0 0 0;
+  list-style: none;
+  vertical-align: middle;
+  text-align: left;
+  font-weight: normal;
+  font-size: 18px;
+  font-family: "Brandon Grotesque";
+}
+
+.art-board li:nth-last-child(1) {
+  margin-bottom: 45px;
+}
+
+.art-board a {
+  font-weight: 900;
+  font-size: 13px;
+  font-family: "Brandon Grotesque";
+  letter-spacing: 1.95px;
+  color: #fffafa;
+  text-transform: uppercase;
+  background-color: #004a4c;
+  padding: 16px 40px;
+  border-radius: 6px;
+  margin-top: 20px;
+  margin-left: 222px;
+}
+
+.bag-img {
+  position: absolute;
+  top: 485px;
+  left: 697px;
+  width: 308px;
+  height: 373px;
+  z-index: 3;
+}
+
+.adobe-img {
+  position: absolute;
+  top: 150px;
+  left: 390px;
+  width: 496px;
+  height: 622px;
+  z-index: 2;
+}
+/* nezz end */
